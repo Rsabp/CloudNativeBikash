@@ -2,7 +2,7 @@
 This project is a *cloud-native web application* that allows users to upload and preview *images, videos, and audio files* in real-time. The app is built using:  - *React (Vite)* for the frontend UI   - *Azure Blob Storage* for storing uploaded media   - *Azure Monitor &amp; Application Insights* for observability
 
  # Bikash Gupta Gallery Azure_Blob_storage  Repository
-![Screenshot 2023-08-05 172736](https://github.com/kelcho-spense/Image_Gallery_Azure_Blob_storage-Educator_Developer_Blog-/assets/57180726/38761210-2d3f-4f48-b54f-d923c43b6773)
+![Screenshot 2023-08-05 172736](https://github.com/Rsabp/CloudNativeBikash/blob/main/Screenshot%202025-04-15%20183912.png)
  
 ## What is Azure Blob Storage?
 Azure Blob Storage is a Microsoft Azure cloud-based object storage solution. It enables developers to use blobs to store and manage unstructured data such as documents, photos, videos, backups, and logs. Blobs can be grouped together to form containers, providing a scalable and cost-effective method for storing and retrieving massive amounts of data.
