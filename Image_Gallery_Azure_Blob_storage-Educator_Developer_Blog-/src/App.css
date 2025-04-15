@@ -1,0 +1,218 @@
+body {
+  background: #1e1e1e;
+  color: #eee;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: #d0d0ff;
+  margin: 1rem 0;
+}
+
+/* Navbar */
+.navbar {
+  background: #121212;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #61dafb;
+}
+
+.nav-buttons .btn {
+  margin-left: 1rem;
+  background: transparent;
+  color: white;
+  border: 1px solid #61dafb;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.nav-buttons .btn.primary {
+  background: #61dafb;
+  color: black;
+}
+
+/* Filter */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+
+/* Upload */
+.upload-sections {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.upload-box {
+  background: #2e2e2e;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 0 10px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.upload-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  color: #90caf9;
+}
+
+.preview-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  object-fit: contain;
+}
+
+.preview-media {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.upload-box input {
+  width: 100%;
+}
+
+.upload-box button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.upload-box button:hover {
+  background: #0056b3;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #2b2b2b;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+.card img, .card video {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.card audio {
+  width: 100%;
+}
+
+.card h4 {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #f0f0f0;
+}
+
+.del {
+  background: crimson;
+  color: white;
+  border: none;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.del:hover {
+  background: darkred;
+}
+
+/* Contact */
+.contact-section {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #1a1a2a;
+  border-radius: 1rem;
+}
+
+.contact-section h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background: #61dafb;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background: #121212;
+  color: #ccc;
+}
+
+.footer .socials {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.footer .socials svg {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+
